@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="Countries Search Page.css">
+</head>
+
+<body>
+    <div class="container pt-5">
+        <div class="row">
+            <h1 class="col-12 heading text-center">Find the Countries Population</h1>
+            <div class="col-12 text-center mt-3">
+                <input type="search" placeholder="Search for a Country" class="form-control search-input" id="searchInput" />
+            </div>
+            <div class="col-12 d-none mt-5" id="spinner">
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="spinner-border" role="status"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row result-countries" id="resultCountries"></div>
+    </div>
+</body>
+<script type="text/javascript" src="Countries Search Page.js"></script>
+
+</html>
